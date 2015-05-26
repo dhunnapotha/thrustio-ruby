@@ -1,6 +1,6 @@
 = thrustio-ruby
 
-Description goes here.
+Ruby gem for thrustio api
 
 == Contributing to thrustio-ruby
  
