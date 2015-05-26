@@ -1,5 +1,9 @@
 require 'simplecov'
 require 'thrustio-ruby'
+require 'test/unit'
+require 'mocha/test_unit'
+require 'json'
+
 
 module SimpleCov::Configuration
   def clean_filters

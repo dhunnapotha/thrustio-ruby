@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "thrustio-ruby"
-  gem.homepage = "http://github.com/gautamchandra/thrustio-ruby"
+  gem.homepage = "http://github.com/dhunnapotha/thrustio-ruby"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Ruby library for ThrustIO - as of now, just anymail}
+  gem.description = %Q{}
   gem.email = "gautam4you@gmail.com"
-  gem.authors = ["dhunnapotha"]
+  gem.authors = ["Gautam Chandra"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

@@ -15,3 +15,6 @@ end
 
 gem 'rest-client'
 
+group :test do
+  gem 'mocha'
+end

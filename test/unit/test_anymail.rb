@@ -1,7 +1,3 @@
-require_relative '../../../../lib/anymail/anymail'
-require 'test/unit'
-require 'mocha/test_unit'
-require 'json'
 
 class AnyMailClientTest < Test::Unit::TestCase
 
