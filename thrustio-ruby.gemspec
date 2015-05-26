@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
     "lib/thrustio-ruby.rb",
     "test/helper.rb",
     "test/test_thrustio-ruby.rb",
-    "test/unit/test_anymail.rb"
+    "test/unit/test_anymail.rb",
+    "thrustio-ruby.gemspec"
   ]
   s.homepage = "http://github.com/dhunnapotha/thrustio-ruby"
   s.licenses = ["MIT"]
