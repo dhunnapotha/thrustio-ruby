@@ -4,9 +4,9 @@ Ruby gem for thrustio api
 
 == Usage
 
-client = Thrust::AnyMail::Client.new(<secret_key>) #eg: Thrust::AnyMail::Client.new('yourkey')
-client.search(<full_name_to_search>, <domain>) #eg: client.search("Gautam Chandra", "gmail.com")
-client.searchesLeft
+  client = Thrust::AnyMail::Client.new(<secret_key>) #eg: Thrust::AnyMail::Client.new('yourkey')
+  client.search(<full_name_to_search>, <domain>) #eg: client.search("Gautam Chandra", "gmail.com")
+  client.searchesLeft
 
 == Contributing to thrustio-ruby
  
