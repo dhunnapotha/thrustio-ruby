@@ -2,6 +2,12 @@
 
 Ruby gem for thrustio api
 
+== Usage
+
+client = Thrust::AnyMail::Client.new(<secret_key>) #eg: Thrust::AnyMail::Client.new('yourkey')
+client.search(<full_name_to_search>, <domain>) #eg: client.search("Gautam Chandra", "gmail.com")
+client.searchesLeft
+
 == Contributing to thrustio-ruby
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
@@ -14,6 +20,5 @@ Ruby gem for thrustio api
 
 == Copyright
 
-Copyright (c) 2015 dhunnapotha. See LICENSE.txt for
-further details.
+Copyright (c) 2015 Gautam Chandra. See LICENSE.txt for further details.
 
