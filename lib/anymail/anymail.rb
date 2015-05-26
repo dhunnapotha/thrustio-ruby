@@ -22,7 +22,7 @@ module Thrust
       def searchesLeft
         params = build_serches_left_params
         response = JSON.parse(RestClient.post SEARCHES_LEFT_URL, params)
-        response['searches']
+        response['searches'].to_i
       end
 
       private
