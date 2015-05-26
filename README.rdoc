@@ -1,11 +1,21 @@
 = thrustio-ruby
 
-Ruby gem for thrustio api
+Ruby gem for thrustio api. Only anymail apis are supported as of now.
+
+== Installation
+Via RubyGems
+  gem install thrustio-ruby
+
+== Include
+  require 'thrustio-ruby'
 
 == Usage
-
-  client = Thrust::AnyMail::Client.new(<secret_key>) #eg: Thrust::AnyMail::Client.new('yourkey')
-  client.search(<full_name_to_search>, <domain>) #eg: client.search("Gautam Chandra", "gmail.com")
+  
+  # To instantiate the anymail client
+  client = Thrust::AnyMail::Client.new(<secret_key>)
+  # To search for email addresses
+  client.search("Gautam Chandra", "gmail.com")
+  # To get the count of searches left
   client.searchesLeft
 
 == Contributing to thrustio-ruby
